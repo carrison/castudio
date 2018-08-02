@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>C%%Users%carrison.jiang%Katalon Studio%bugfree1%bugfree1.prj</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.groovy.core.groovyNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>kat-1335464423034759989.groovy</name>
+			<type>1</type>
+			<location>C:/Users/CARRIS~1.JIA/AppData/Local/Temp/Katalon/Web Services/kat-1335464423034759989.groovy</location>
+		</link>
+		<link>
+			<name>kat-3093303077461918894.groovy</name>
+			<type>1</type>
+			<location>C:/Users/CARRIS~1.JIA/AppData/Local/Temp/Katalon/Web Services/kat-3093303077461918894.groovy</location>
+		</link>
+		<link>
+			<name>kat-3236695395837256883.groovy</name>
+			<type>1</type>
+			<location>C:/Users/CARRIS~1.JIA/AppData/Local/Temp/Katalon/Web Services/kat-3236695395837256883.groovy</location>
+		</link>
+		<link>
+			<name>kat-3256288214377636359.groovy</name>
+			<type>1</type>
+			<location>C:/Users/CARRIS~1.JIA/AppData/Local/Temp/Katalon/Web Services/kat-3256288214377636359.groovy</location>
+		</link>
+		<link>
+			<name>kat-4503091531601851389.groovy</name>
+			<type>1</type>
+			<location>C:/Users/CARRIS~1.JIA/AppData/Local/Temp/Katalon/Web Services/kat-4503091531601851389.groovy</location>
+		</link>
+		<link>
+			<name>kat-4525765103187531702.groovy</name>
+			<type>1</type>
+			<location>C:/Users/CARRIS~1.JIA/AppData/Local/Temp/Katalon/Web Services/kat-4525765103187531702.groovy</location>
+		</link>
+		<link>
+			<name>kat-4864428013712038680.groovy</name>
+			<type>1</type>
+			<location>C:/Users/CARRIS~1.JIA/AppData/Local/Temp/Katalon/Web Services/kat-4864428013712038680.groovy</location>
+		</link>
+		<link>
+			<name>kat-5223661915075335862.groovy</name>
+			<type>1</type>
+			<location>C:/Users/CARRIS~1.JIA/AppData/Local/Temp/Katalon/Web Services/kat-5223661915075335862.groovy</location>
+		</link>
+		<link>
+			<name>kat-5622907985299584989.groovy</name>
+			<type>1</type>
+			<location>C:/Users/CARRIS~1.JIA/AppData/Local/Temp/Katalon/Web Services/kat-5622907985299584989.groovy</location>
+		</link>
+		<link>
+			<name>kat-5954986949579239758.groovy</name>
+			<type>1</type>
+			<location>C:/Users/CARRIS~1.JIA/AppData/Local/Temp/Katalon/Web Services/kat-5954986949579239758.groovy</location>
+		</link>
+		<link>
+			<name>kat-6235594380918312642.groovy</name>
+			<type>1</type>
+			<location>C:/Users/CARRIS~1.JIA/AppData/Local/Temp/Katalon/Web Services/kat-6235594380918312642.groovy</location>
+		</link>
+		<link>
+			<name>kat-639078191913057519.groovy</name>
+			<type>1</type>
+			<location>C:/Users/CARRIS~1.JIA/AppData/Local/Temp/Katalon/Web Services/kat-639078191913057519.groovy</location>
+		</link>
+		<link>
+			<name>kat-7653900851072821553.groovy</name>
+			<type>1</type>
+			<location>C:/Users/CARRIS~1.JIA/AppData/Local/Temp/Katalon/Web Services/kat-7653900851072821553.groovy</location>
+		</link>
+		<link>
+			<name>kat-8016752255579626043.groovy</name>
+			<type>1</type>
+			<location>C:/Users/CARRIS~1.JIA/AppData/Local/Temp/Katalon/Web Services/kat-8016752255579626043.groovy</location>
+		</link>
+		<link>
+			<name>kat-8189848492818687319.groovy</name>
+			<type>1</type>
+			<location>C:/Users/CARRIS~1.JIA/AppData/Local/Temp/Katalon/Web Services/kat-8189848492818687319.groovy</location>
+		</link>
+	</linkedResources>
+	<filteredResources>
+		<filter>
+			<id>1533008987985</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1533008988005</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
+</projectDescription>

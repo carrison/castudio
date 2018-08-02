@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ts5" time="85" tests="1" failures="2" errors="0">
+   <testsuite name="ts5" tests="1" failures="2" errors="0" time="85" timestamp="2018-07-31 17:36:12" hostname="carrison.jiang - CNQDSX-150247.goertek.com" id="Test Suites/ts5">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\carrison.jiang\\Katalon Studio\\bugfree1\\Reports\\ts5\\20180731_173609"/>
+         <property name="logFiles" value="C:\\Users\\carrison.jiang\\Katalon Studio\\bugfree1\\Reports\\ts5\\20180731_173609\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\carrison.jiang\\Katalon Studio\\bugfree1\\Reports\\ts5\\20180731_173609\\1533029811657.png, C:\\Users\\carrison.jiang\\Katalon Studio\\bugfree1\\Reports\\ts5\\20180731_173609\\1533029848617.png"/>
+         <property name="hostName" value="carrison.jiang - CNQDSX-150247.goertek.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="3d3056349c4c1e01460e59d9d2c9ab02"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/tc05" classname="Test Cases/tc05" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_BugFree/Page_BugFree/a_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugFree/Page_BugFree/frame_NavFrame' located by 'By.xpath: //frame[@src = 'TopNav.php' and @name = 'NavFrame' and @id = 'NavFrame']' not found)"/>
+         <system-out><![CDATA[2018-07-31 17:36:12 - [TEST_CASE][FAILED] - Test Cases/tc05: Test Cases/tc05 FAILED because (of) Unable to click on object 'Object Repository/Page_BugFree/Page_BugFree/a_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugFree/Page_BugFree/frame_NavFrame' located by 'By.xpath: //frame[@src = 'TopNav.php' and @name = 'NavFrame' and @id = 'NavFrame']' not found)
+
+2018-07-31 17:36:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-31 17:36:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-31 17:36:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://10.10.31.107:41062/www/Login.php' successfully
+
+2018-07-31 17:36:20 - [MESSAGE][PASSED] - Navigate to 'http://10.10.31.107:41062/www/Login.php' successfully
+
+2018-07-31 17:36:20 - [TEST_STEP][PASSED] - setText: Text 'sally' is set on object 'Object Repository/Page_BugFree/Page_BugFree/input_TestUserName'
+
+2018-07-31 17:36:20 - [MESSAGE][PASSED] - Text 'sally' is set on object 'Object Repository/Page_BugFree/Page_BugFree/input_TestUserName'
+
+2018-07-31 17:36:20 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Page_BugFree/Page_BugFree/input_TestUserPWD'
+
+2018-07-31 17:36:20 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_BugFree/Page_BugFree/input_TestUserPWD'
+
+2018-07-31 17:36:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugFree/Page_BugFree/input_SubmitLoginBTN' is clicked on
+
+2018-07-31 17:36:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugFree/Page_BugFree/input_SubmitLoginBTN' is clicked on
+
+2018-07-31 17:36:20 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_BugFree/Page_BugFree/a_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugFree/Page_BugFree/frame_NavFrame' located by 'By.xpath: //frame[@src = 'TopNav.php' and @name = 'NavFrame' and @id = 'NavFrame']' not found)
+
+2018-07-31 17:36:51 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_BugFree/Page_BugFree/a_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugFree/Page_BugFree/frame_NavFrame' located by 'By.xpath: //frame[@src = 'TopNav.php' and @name = 'NavFrame' and @id = 'NavFrame']' not found)
+[[ATTACHMENT|C:\\Users\\carrison.jiang\\Katalon Studio\\bugfree1\\Reports\\ts5\\20180731_173609\\1533029811657.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-31 17:36:12 - [TEST_CASE][FAILED] - Test Cases/tc05: Test Cases/tc05 FAILED because (of) Unable to click on object 'Object Repository/Page_BugFree/Page_BugFree/a_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugFree/Page_BugFree/frame_NavFrame' located by 'By.xpath: //frame[@src = 'TopNav.php' and @name = 'NavFrame' and @id = 'NavFrame']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/tc05" classname="Test Cases/tc05" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_BugFree/Page_BugFree/a_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugFree/Page_BugFree/frame_NavFrame' located by 'By.xpath: //frame[@src = 'TopNav.php' and @name = 'NavFrame' and @id = 'NavFrame']' not found)"/>
+         <system-out><![CDATA[2018-07-31 17:36:52 - [TEST_CASE][FAILED] - Test Cases/tc05: Test Cases/tc05 FAILED because (of) Unable to click on object 'Object Repository/Page_BugFree/Page_BugFree/a_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugFree/Page_BugFree/frame_NavFrame' located by 'By.xpath: //frame[@src = 'TopNav.php' and @name = 'NavFrame' and @id = 'NavFrame']' not found)
+
+2018-07-31 17:36:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-31 17:36:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-31 17:36:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-31 17:36:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://10.10.31.107:41062/www/Login.php' successfully
+
+2018-07-31 17:36:57 - [MESSAGE][PASSED] - Navigate to 'http://10.10.31.107:41062/www/Login.php' successfully
+
+2018-07-31 17:36:57 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/Page_BugFree/Page_BugFree/input_TestUserName'
+
+2018-07-31 17:36:57 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_BugFree/Page_BugFree/input_TestUserName'
+
+2018-07-31 17:36:57 - [TEST_STEP][PASSED] - setText: Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_BugFree/Page_BugFree/input_TestUserPWD'
+
+2018-07-31 17:36:57 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_BugFree/Page_BugFree/input_TestUserPWD'
+
+2018-07-31 17:36:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugFree/Page_BugFree/input_SubmitLoginBTN' is clicked on
+
+2018-07-31 17:36:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugFree/Page_BugFree/input_SubmitLoginBTN' is clicked on
+
+2018-07-31 17:36:57 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_BugFree/Page_BugFree/a_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugFree/Page_BugFree/frame_NavFrame' located by 'By.xpath: //frame[@src = 'TopNav.php' and @name = 'NavFrame' and @id = 'NavFrame']' not found)
+
+2018-07-31 17:37:28 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_BugFree/Page_BugFree/a_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugFree/Page_BugFree/frame_NavFrame' located by 'By.xpath: //frame[@src = 'TopNav.php' and @name = 'NavFrame' and @id = 'NavFrame']' not found)
+[[ATTACHMENT|C:\\Users\\carrison.jiang\\Katalon Studio\\bugfree1\\Reports\\ts5\\20180731_173609\\1533029848617.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-31 17:36:52 - [TEST_CASE][FAILED] - Test Cases/tc05: Test Cases/tc05 FAILED because (of) Unable to click on object 'Object Repository/Page_BugFree/Page_BugFree/a_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugFree/Page_BugFree/frame_NavFrame' located by 'By.xpath: //frame[@src = 'TopNav.php' and @name = 'NavFrame' and @id = 'NavFrame']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/tc05" classname="Test Cases/tc05" status="PASSED">
+         <system-out><![CDATA[2018-07-31 17:37:28 - [TEST_CASE][PASSED] - Test Cases/tc05: Test Cases/tc05
+
+2018-07-31 17:37:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-31 17:37:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-31 17:37:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-31 17:37:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://10.10.31.107:41062/www/Login.php' successfully
+
+2018-07-31 17:37:33 - [MESSAGE][PASSED] - Navigate to 'http://10.10.31.107:41062/www/Login.php' successfully
+
+2018-07-31 17:37:33 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_BugFree/Page_BugFree/input_TestUserName'
+
+2018-07-31 17:37:34 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_BugFree/Page_BugFree/input_TestUserName'
+
+2018-07-31 17:37:34 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Page_BugFree/Page_BugFree/input_TestUserPWD'
+
+2018-07-31 17:37:34 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_BugFree/Page_BugFree/input_TestUserPWD'
+
+2018-07-31 17:37:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugFree/Page_BugFree/input_SubmitLoginBTN' is clicked on
+
+2018-07-31 17:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugFree/Page_BugFree/input_SubmitLoginBTN' is clicked on
+
+2018-07-31 17:37:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugFree/Page_BugFree/a_' is clicked on
+
+2018-07-31 17:37:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugFree/Page_BugFree/a_' is clicked on
+
+2018-07-31 17:37:35 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-31 17:37:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-31 17:36:12 - [TEST_SUITE][FAILED] - ts5: Test Cases/tc05 FAILED because (of) Unable to click on object 'Object Repository/Page_BugFree/Page_BugFree/a_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugFree/Page_BugFree/frame_NavFrame' located by 'By.xpath: //frame[@src = 'TopNav.php' and @name = 'NavFrame' and @id = 'NavFrame']' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-31 17:36:12 - [TEST_SUITE][FAILED] - ts5: Test Cases/tc05 FAILED because (of) Unable to click on object 'Object Repository/Page_BugFree/Page_BugFree/a_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugFree/Page_BugFree/frame_NavFrame' located by 'By.xpath: //frame[@src = 'TopNav.php' and @name = 'NavFrame' and @id = 'NavFrame']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

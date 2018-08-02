@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ts5" time="84" tests="1" failures="2" errors="0">
+   <testsuite name="ts5" tests="1" failures="2" errors="0" time="84" timestamp="2018-08-01 09:16:22" hostname="carrison.jiang - CNQDSX-150247.goertek.com" id="Test Suites/ts5">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\carrison.jiang\\Katalon Studio\\bugfree1\\Reports\\ts5\\20180801_091619"/>
+         <property name="logFiles" value="C:\\Users\\carrison.jiang\\Katalon Studio\\bugfree1\\Reports\\ts5\\20180801_091619\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\carrison.jiang\\Katalon Studio\\bugfree1\\Reports\\ts5\\20180801_091619\\1533086221899.png, C:\\Users\\carrison.jiang\\Katalon Studio\\bugfree1\\Reports\\ts5\\20180801_091619\\1533086222363.png, C:\\Users\\carrison.jiang\\Katalon Studio\\bugfree1\\Reports\\ts5\\20180801_091619\\1533086258906.png, C:\\Users\\carrison.jiang\\Katalon Studio\\bugfree1\\Reports\\ts5\\20180801_091619\\1533086259206.png"/>
+         <property name="hostName" value="carrison.jiang - CNQDSX-150247.goertek.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="6d7087acc91ea99c0e3d2415369ecdf1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/tc05" classname="Test Cases/tc05" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/adminBugFree/UserInfo' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/adminBugFree/frame_NavFrame' located by 'By.xpath: //frame[@src = 'TopNav.php' and @name = 'NavFrame' and @id = 'NavFrame']' not found)"/>
+         <system-out><![CDATA[2018-08-01 09:16:23 - [TEST_CASE][FAILED] - Test Cases/tc05: Test Cases/tc05 FAILED because (of) Verify element text of test object 'Object Repository/adminBugFree/UserInfo' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/adminBugFree/frame_NavFrame' located by 'By.xpath: //frame[@src = 'TopNav.php' and @name = 'NavFrame' and @id = 'NavFrame']' not found)
+
+2018-08-01 09:16:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://10.10.31.107:41062/www/Login.php'
+
+2018-08-01 09:16:30 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.10.31.107:41062/www/Login.php'
+
+2018-08-01 09:16:30 - [TEST_STEP][PASSED] - setText: Text 'sally' is set on object 'Object Repository/adminBugFree/username'
+
+2018-08-01 09:16:30 - [MESSAGE][PASSED] - Text 'sally' is set on object 'Object Repository/adminBugFree/username'
+
+2018-08-01 09:16:30 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/adminBugFree/password'
+
+2018-08-01 09:16:31 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/adminBugFree/password'
+
+2018-08-01 09:16:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/adminBugFree/submit' is clicked on
+
+2018-08-01 09:16:31 - [MESSAGE][PASSED] - Object: 'Object Repository/adminBugFree/submit' is clicked on
+
+2018-08-01 09:16:31 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/adminBugFree/UserInfo' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/adminBugFree/frame_NavFrame' located by 'By.xpath: //frame[@src = 'TopNav.php' and @name = 'NavFrame' and @id = 'NavFrame']' not found)
+
+2018-08-01 09:17:02 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/adminBugFree/frame_NavFrame' located by 'By.xpath: //frame[@src = 'TopNav.php' and @name = 'NavFrame' and @id = 'NavFrame']' not found
+[[ATTACHMENT|C:\\Users\\carrison.jiang\\Katalon Studio\\bugfree1\\Reports\\ts5\\20180801_091619\\1533086221899.png]]
+
+2018-08-01 09:17:02 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/adminBugFree/UserInfo' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/adminBugFree/frame_NavFrame' located by 'By.xpath: //frame[@src = 'TopNav.php' and @name = 'NavFrame' and @id = 'NavFrame']' not found)
+[[ATTACHMENT|C:\\Users\\carrison.jiang\\Katalon Studio\\bugfree1\\Reports\\ts5\\20180801_091619\\1533086222363.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-01 09:16:23 - [TEST_CASE][FAILED] - Test Cases/tc05: Test Cases/tc05 FAILED because (of) Verify element text of test object 'Object Repository/adminBugFree/UserInfo' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/adminBugFree/frame_NavFrame' located by 'By.xpath: //frame[@src = 'TopNav.php' and @name = 'NavFrame' and @id = 'NavFrame']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/tc05" classname="Test Cases/tc05" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/adminBugFree/UserInfo' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/adminBugFree/frame_NavFrame' located by 'By.xpath: //frame[@src = 'TopNav.php' and @name = 'NavFrame' and @id = 'NavFrame']' not found)"/>
+         <system-out><![CDATA[2018-08-01 09:17:02 - [TEST_CASE][FAILED] - Test Cases/tc05: Test Cases/tc05 FAILED because (of) Verify element text of test object 'Object Repository/adminBugFree/UserInfo' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/adminBugFree/frame_NavFrame' located by 'By.xpath: //frame[@src = 'TopNav.php' and @name = 'NavFrame' and @id = 'NavFrame']' not found)
+
+2018-08-01 09:17:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://10.10.31.107:41062/www/Login.php'
+
+2018-08-01 09:17:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-01 09:17:07 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.10.31.107:41062/www/Login.php'
+
+2018-08-01 09:17:07 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/adminBugFree/username'
+
+2018-08-01 09:17:07 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/adminBugFree/username'
+
+2018-08-01 09:17:07 - [TEST_STEP][PASSED] - setText: Text 'ThisIsNotAPassword' is set on object 'Object Repository/adminBugFree/password'
+
+2018-08-01 09:17:07 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/adminBugFree/password'
+
+2018-08-01 09:17:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/adminBugFree/submit' is clicked on
+
+2018-08-01 09:17:08 - [MESSAGE][PASSED] - Object: 'Object Repository/adminBugFree/submit' is clicked on
+
+2018-08-01 09:17:08 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/adminBugFree/UserInfo' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/adminBugFree/frame_NavFrame' located by 'By.xpath: //frame[@src = 'TopNav.php' and @name = 'NavFrame' and @id = 'NavFrame']' not found)
+
+2018-08-01 09:17:39 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/adminBugFree/frame_NavFrame' located by 'By.xpath: //frame[@src = 'TopNav.php' and @name = 'NavFrame' and @id = 'NavFrame']' not found
+[[ATTACHMENT|C:\\Users\\carrison.jiang\\Katalon Studio\\bugfree1\\Reports\\ts5\\20180801_091619\\1533086258906.png]]
+
+2018-08-01 09:17:39 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/adminBugFree/UserInfo' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/adminBugFree/frame_NavFrame' located by 'By.xpath: //frame[@src = 'TopNav.php' and @name = 'NavFrame' and @id = 'NavFrame']' not found)
+[[ATTACHMENT|C:\\Users\\carrison.jiang\\Katalon Studio\\bugfree1\\Reports\\ts5\\20180801_091619\\1533086259206.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-01 09:17:02 - [TEST_CASE][FAILED] - Test Cases/tc05: Test Cases/tc05 FAILED because (of) Verify element text of test object 'Object Repository/adminBugFree/UserInfo' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/adminBugFree/frame_NavFrame' located by 'By.xpath: //frame[@src = 'TopNav.php' and @name = 'NavFrame' and @id = 'NavFrame']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/tc05" classname="Test Cases/tc05" status="PASSED">
+         <system-out><![CDATA[2018-08-01 09:17:39 - [TEST_CASE][PASSED] - Test Cases/tc05: Test Cases/tc05
+
+2018-08-01 09:17:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://10.10.31.107:41062/www/Login.php'
+
+2018-08-01 09:17:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-01 09:17:44 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.10.31.107:41062/www/Login.php'
+
+2018-08-01 09:17:44 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/adminBugFree/username'
+
+2018-08-01 09:17:44 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/adminBugFree/username'
+
+2018-08-01 09:17:44 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/adminBugFree/password'
+
+2018-08-01 09:17:44 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/adminBugFree/password'
+
+2018-08-01 09:17:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/adminBugFree/submit' is clicked on
+
+2018-08-01 09:17:44 - [MESSAGE][PASSED] - Object: 'Object Repository/adminBugFree/submit' is clicked on
+
+2018-08-01 09:17:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/adminBugFree/UserInfo' are matched.
+
+2018-08-01 09:17:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/adminBugFree/UserInfo' are matched.
+
+2018-08-01 09:17:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugFree/Page_BugFree/Logout' is clicked on
+
+2018-08-01 09:17:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugFree/Page_BugFree/Logout' is clicked on
+
+2018-08-01 09:17:46 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-01 09:17:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-01 09:16:22 - [TEST_SUITE][FAILED] - ts5: Test Cases/tc05 FAILED because (of) Verify element text of test object 'Object Repository/adminBugFree/UserInfo' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/adminBugFree/frame_NavFrame' located by 'By.xpath: //frame[@src = 'TopNav.php' and @name = 'NavFrame' and @id = 'NavFrame']' not found)]]></system-out>
+      <system-err><![CDATA[2018-08-01 09:16:22 - [TEST_SUITE][FAILED] - ts5: Test Cases/tc05 FAILED because (of) Verify element text of test object 'Object Repository/adminBugFree/UserInfo' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/adminBugFree/frame_NavFrame' located by 'By.xpath: //frame[@src = 'TopNav.php' and @name = 'NavFrame' and @id = 'NavFrame']' not found)]]></system-err>
+   </testsuite>
+</testsuites>
